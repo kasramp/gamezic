@@ -1,2 +1,2 @@
 # gamezic
-GameZ In Console
+GameZ In Console. Set of games for console written in Python.
