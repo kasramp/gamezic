@@ -1,1 +1,1 @@
-from games.NumberGuessing import NumberGuessing
+from games.number_guessing import NumberGuessing
