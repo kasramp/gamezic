@@ -8,7 +8,7 @@ class NumberGuessing:
 
         while replay:
             print("Welcome to the Number Guessing game. You have TEN chances to guess "
-                  "the correct number ranger from '0' to '1000'")
+                  "the correct number range from '0' to '1000'")
 
             mysterious_number = random.randint(0, 1001)
             is_win = False
