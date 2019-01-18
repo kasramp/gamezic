@@ -1,7 +1,11 @@
 import random
 
+from games import Game
 
-class NumberGuessing:
+
+class NumberGuessing(Game):
+    def get_name(self):
+        print("Number Guessing")
 
     def play(self):
         replay = True

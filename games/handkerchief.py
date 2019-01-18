@@ -1,8 +1,14 @@
 import os
 import random
 
+from games import Game
 
-class Handkerchief:
+
+class Handkerchief(Game):
+
+    def get_name(self):
+        print("Handkerchief AKA Hangman")
+
     def play(self):
         replay = True
         while replay:
