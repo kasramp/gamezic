@@ -7,7 +7,7 @@ from games import Game
 class Handkerchief(Game):
 
     def get_name(self):
-        print("Handkerchief AKA Hangman")
+        return "Handkerchief AKA Hangman"
 
     def play(self):
         replay = True

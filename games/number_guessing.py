@@ -5,7 +5,7 @@ from games import Game
 
 class NumberGuessing(Game):
     def get_name(self):
-        print("Number Guessing")
+        return "Number Guessing"
 
     def play(self):
         replay = True
